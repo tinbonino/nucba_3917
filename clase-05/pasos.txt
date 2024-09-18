@@ -1,0 +1,4 @@
+
+npm init -y                     ** Inicializamos un proyecto de node
+npm i --save inquirer  ** Instalamos inquirer
+npm i inquirer-date-prompt ** Instalamos opciones de fecha
