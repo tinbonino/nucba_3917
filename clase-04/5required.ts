@@ -1,7 +1,7 @@
 interface Auto {
     marca?:string;
     modelo?:string;
-    puertas:number;
+    puertas?:number;
 }
 
 function crearAuto(auto: Required<Auto>):void {

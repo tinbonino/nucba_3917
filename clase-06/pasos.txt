@@ -1,0 +1,8 @@
+npm install -g typescript       ** Instalo Typescript de forma global
+tsc --version                   ** Chequeo la versión de Typescript
+npm init -y                     ** Inicializamos un proyecto de node
+npm i typescript                ** Instalamos typescript en el proyecto
+tsc --init
+
+
+npm i -g nodemon

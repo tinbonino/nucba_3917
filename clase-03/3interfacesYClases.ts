@@ -15,7 +15,8 @@ class Producto implements ProductoInt {
     precio: number;
     disponible: boolean;
     
-    constructor(id:number,nombre:string,precio:number,disponible:boolean){
+    constructor(id:number,nombre:string,precio:number,disponible:boolean)
+    {
         this.id=id;
         this.nombre=nombre;
         this.precio=precio;

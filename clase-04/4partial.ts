@@ -5,7 +5,10 @@ interface Persona {
 }
 
 function actualizarPersona(persona:Persona,cambios:Partial<Persona>):Persona {
-    return {...persona,...cambios};
+    return {
+            ...persona,
+            ...cambios
+        };
 }
 
 const alumno:Persona ={
