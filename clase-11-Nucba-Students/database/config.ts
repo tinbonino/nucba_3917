@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 export const conectarDB = async (): Promise<void> => { 
     try {
-        await mongoose.connect("mongodb+srv://tinbonino:<pass>@cluster0.9issu.mongodb.net/");
+        await mongoose.connect("mongodb+srv://tinbonino:OBEmDdnuicja1NiX@cluster0.9issu.mongodb.net/");
         console.log('Base de datos online');
     } catch (error) {
         console.log(error);

@@ -1,9 +1,9 @@
-import { Model, Schema, model } from "mongoose";
+import { Model, Schema, model, ObjectId } from "mongoose";
 
 export interface IStudent {
     dni:number;
     nombre: string;
-    camada: number;
+    camada: ObjectId;
     email:string;
     estado:boolean
 }
@@ -21,7 +21,8 @@ const StudentsSchema = new Schema<IStudent>(
             required:true
         },
         camada: {
-            type: Number,
+            type: Schema.Types.ObjectId,
+            ref:"Camada",
             required:true
         },
         email: {
