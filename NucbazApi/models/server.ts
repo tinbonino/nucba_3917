@@ -4,19 +4,24 @@ import { dbConnection } from "../database/config";
 export class Server {
     app: Express;
     port: string | number | undefined;
+    authPath: string;
 
     constructor() {
         this.app = express();
         this.port = process.env.PORT;
-
+        this.authPath="/auth";
         this.conectarDB();
        
         // this.middlewares();
-        // this.routes();
+        this.routes();
     }
 
     async conectarDB():Promise<void>{
         await dbConnection();
+    }
+
+    routes():void {
+        this.app.use(this.authPath,authRoutes);
     }
 
     listen():void {
