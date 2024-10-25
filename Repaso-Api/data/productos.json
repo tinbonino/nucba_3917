@@ -1,0 +1,139 @@
+[
+    {
+        "nombre": "Smartphone XYZ",
+        "descripcion": "Teléfono con cámara de 64 MP y 128 GB de almacenamiento.",
+        "precio": 699.99,
+        "categoria": "Electrónica",
+        "stock": 50,
+        "disponible": true
+      },
+      {
+        "nombre": "Laptop ABC",
+        "descripcion": "Laptop con procesador Intel Core i7 y 16 GB de RAM.",
+        "precio": 1299.99,
+        "categoria": "Electrónica",
+        "stock": 20,
+        "disponible": true
+      },
+      {
+        "nombre": "Silla Gamer",
+        "descripcion": "Silla ergonómica para gamers con soporte lumbar.",
+        "precio": 299.99,
+        "categoria": "Muebles",
+        "stock": 10,
+        "disponible": true
+      },
+      {
+        "nombre": "Mesa de Centro",
+        "descripcion": "Mesa de centro de madera con acabado rústico.",
+        "precio": 149.99,
+        "categoria": "Muebles",
+        "stock": 5,
+        "disponible": true
+      },
+      {
+        "nombre": "Cámara Canon EOS",
+        "descripcion": "Cámara profesional con sensor de 24 MP y lente 18-55 mm.",
+        "precio": 799.99,
+        "categoria": "Electrónica",
+        "stock": 15,
+        "disponible": true
+      },
+      {
+        "nombre": "Sofá 3 Plazas",
+        "descripcion": "Sofá de 3 plazas con tapizado de tela y cojines decorativos.",
+        "precio": 499.99,
+        "categoria": "Muebles",
+        "stock": 7,
+        "disponible": true
+      },
+      {
+        "nombre": "Smartwatch Fit",
+        "descripcion": "Smartwatch con monitor de ritmo cardíaco y resistente al agua.",
+        "precio": 199.99,
+        "categoria": "Electrónica",
+        "stock": 30,
+        "disponible": true
+      },
+      {
+        "nombre": "Escritorio Gamer",
+        "descripcion": "Escritorio para gamers con soporte para monitor y accesorios.",
+        "precio": 249.99,
+        "categoria": "Muebles",
+        "stock": 12,
+        "disponible": true
+      },
+      {
+        "nombre": "Impresora HP",
+        "descripcion": "Impresora multifuncional con conexión Wi-Fi y Bluetooth.",
+        "precio": 99.99,
+        "categoria": "Electrónica",
+        "stock": 25,
+        "disponible": true
+      },
+      {
+        "nombre": "Silla de Oficina",
+        "descripcion": "Silla de oficina ergonómica con soporte lumbar y reposabrazos.",
+        "precio": 149.99,
+        "categoria": "Muebles",
+        "stock": 8,
+        "disponible": true
+      },
+      {
+        "nombre": "Teclado Mecánico",
+        "descripcion": "Teclado mecánico para gamers con retroiluminación LED.",
+        "precio": 79.99,
+        "categoria": "Electrónica",
+        "stock": 18,
+        "disponible": true
+      },
+      {
+        "nombre": "Mesa de Comedor",
+        "descripcion": "Mesa de comedor extensible con capacidad para 6 personas.",
+        "precio": 399.99,
+        "categoria": "Muebles",
+        "stock": 3,
+        "disponible": true
+      },
+      {
+        "nombre": "Auriculares Inalámbricos",
+        "descripcion": "Auriculares inalámbricos con cancelación de ruido y micrófono.",
+        "precio": 129.99,
+        "categoria": "Electrónica",
+        "stock": 22,
+        "disponible": true
+      },
+      {
+        "nombre": "Cama King Size",
+        "descripcion": "Cama King Size con cabecera acolchada y base de madera.",
+        "precio": 799.99,
+        "categoria": "Muebles",
+        "stock": 4,
+        "disponible": true
+      },
+      {
+        "nombre": "Altavoz Bluetooth",
+        "descripcion": "Altavoz portátil con conexión Bluetooth y batería recargable.",
+        "precio": 49.99,
+        "categoria": "Electrónica",
+        "stock": 35,
+        "disponible": true
+      },
+      {
+        "nombre": "Mesa de Noche",
+        "descripcion": "Mesa de noche con cajón y espacio de almacenamiento.",
+        "precio": 79.99,
+        "categoria": "Muebles",
+        "stock": 6,
+        "disponible": true
+      },
+      {
+        "nombre": "Monitor Curvo",
+        "descripcion": "Monitor curvo de 27 pulgadas con resolución Full HD.",
+        "precio": 299.99,
+        "categoria": "Electrónica",
+        "stock": 14,
+        "disponible": true
+      }
+    ]
+      

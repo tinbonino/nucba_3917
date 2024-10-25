@@ -1,0 +1,3 @@
+- npm init -y
+- npm install express nodemon mongoose typescript dotenv 
+- npm install @types/node @types/express --save-dev
