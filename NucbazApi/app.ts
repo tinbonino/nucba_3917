@@ -1,7 +1,9 @@
+import { Server } from "./models/server";
 import dotenv from "dotenv";
 
 dotenv.config();
 
-const server = new server();
+const server = new Server();
 
-server.listen()
+server.listen();
+
